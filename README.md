@@ -1,0 +1,2 @@
+# awslinkdjango
+My deployment kit
