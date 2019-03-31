@@ -7,5 +7,4 @@ urlpatterns = [
     path('your-name', views.get_name),
     path('thanks', views.thanks),
     path('train', views.train),
-
 ]
