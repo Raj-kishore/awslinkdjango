@@ -23,4 +23,5 @@ I have used pip install dj-static=0.0.6 for production
 from django.core.wsgi import get_wsgi_application
 from dj_static import Cling
 
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 application = Cling(get_wsgi_application())
