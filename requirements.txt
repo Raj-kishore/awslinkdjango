@@ -1,7 +1,10 @@
-Django==2.1.7
-nltk==3.4
-numpy==1.15.4
-openpyxl==2.5.12
-pandas==0.23.4
-scikit-learn==0.20.1
+Django
+nltk
+numpy
+openpyxl
+pandas
+scikit-learn
+django-storages
+boto3
+
 
