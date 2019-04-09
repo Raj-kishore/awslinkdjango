@@ -1,2 +1,0 @@
-chmod 400 test-keypair-django.pem
-ssh -i "test-keypair-django.pem" ubuntu@ec2-3-16-128-25.us-east-2.compute.amazonaws.com
