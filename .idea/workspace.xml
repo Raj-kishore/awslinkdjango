@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7307a7ba-a384-42d9-857c-81f423a15e09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/construction/static/construction/src.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainsite/static/mainsite/src.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/construction/static/construction/js/jquery.countdown.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/construction/static/construction/js/jquery.countdown.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/construction/static/construction/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/construction/static/construction/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.django-aws.odt#" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/construction/templates/construction/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/construction/templates/construction/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django-aws.odt" beforeDir="false" afterPath="$PROJECT_DIR$/django-aws.odt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/location.txt" beforeDir="false" afterPath="$PROJECT_DIR$/location.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,16 +17,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mainsite/templates/mainsite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="-165">
+              <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainsite/static/mainsite/src.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -65,8 +67,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/construction/templates/construction/welcome.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="150">
+              <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -83,7 +85,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/construction/static/construction/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
+            <state relative-caret-position="870">
               <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
             </state>
           </provider>
@@ -122,9 +124,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>family</find>
-      <find>nicescr</find>
-      <find>fronten</find>
       <find>css</find>
       <find>asset</find>
       <find>script</find>
@@ -152,6 +151,9 @@
       <find>#</find>
       <find>Guy</find>
       <find>main.</find>
+      <find>member</find>
+      <find>to try</find>
+      <find>abuse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,10 +182,10 @@
         <option value="$PROJECT_DIR$/myproject/urls.py" />
         <option value="$PROJECT_DIR$/construction/static/construction/js/jquery.countdown.min.js" />
         <option value="$PROJECT_DIR$/construction/static/construction/js/main.js" />
-        <option value="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" />
-        <option value="$PROJECT_DIR$/construction/templates/construction/welcome.html" />
         <option value="$PROJECT_DIR$/construction/static/construction/src.txt" />
         <option value="$PROJECT_DIR$/mainsite/static/mainsite/src.txt" />
+        <option value="$PROJECT_DIR$/construction/templates/construction/welcome.html" />
+        <option value="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" />
       </list>
     </option>
   </component>
@@ -199,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,6 +231,13 @@
               <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
               <item name="construction" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
@@ -276,6 +284,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -426,11 +435,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1299" height="743" extended-state="6" />
+    <frame x="0" y="25" width="1366" height="704" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20689656" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20625466" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3270525" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -676,6 +685,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mainsite/static/mainsite/src.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="82" selection-start-column="82" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/construction/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -693,13 +712,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/construction/static/construction/src.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#225#234#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction/static/construction/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -710,41 +733,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/construction/static/construction/js/main.js">
+    <entry file="file://$PROJECT_DIR$/myproject/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+        <state relative-caret-position="165">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#225#234#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/construction/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/construction/templates/construction/welcome.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/construction/static/construction/src.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="53" lean-forward="true" selection-start-column="53" selection-end-column="53" />
+        <state relative-caret-position="150">
+          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainsite/templates/mainsite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mainsite/static/mainsite/src.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="82" selection-start-column="82" selection-end-column="82" />
+        <state relative-caret-position="-165">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
