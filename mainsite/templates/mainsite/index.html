@@ -33,6 +33,9 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
+
+
+
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
@@ -299,7 +302,7 @@
                     <div class="row">
                         <div class="col-md-8">
                             <div class="row">
-                                <div class="col-sm-4">
+                                <div class="col-sm-6">
                                     <div class="team-members">
                                         <div class="team-avatar">
                                             <img class="img-responsive" src='{% static "mainsite/assets/onepage2/img/member/anon.png" %}' alt="">
@@ -307,94 +310,24 @@
                                         <div class="team-desc">
                                             <div class="team-details">
                                                 <h4>Raj Kishor M</h4>
-                                                <span>Co-Founder, The Visionary</span>
+                                                <span>Co-Founder</span>
                                             </div>
                                             <ul class="team-socials">
-                                                <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="http://fb.com/organicdice"><i class="fa fa-facebook"></i></a></li>
                                                 <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-sm-6">
                                     <div class="team-members">
                                         <div class="team-avatar">
-                                            <img class="img-responsive" src='{% static "mainsite/assets/onepage2/img/member/anon.png" %}' alt="">
+                                            <img class="img-responsive" style="width:100%;" src='{% static "mainsite/assets/onepage2/img/member/amiya-pani.jpeg" %}' alt="">
                                         </div>
                                         <div class="team-desc">
                                             <div class="team-details">
-                                                <h4>Anon 1</h4>
-                                                <span>Co-Founder, The Executioner</span>
-                                            </div>
-                                            <ul class="team-socials">
-                                                <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="team-members">
-                                        <div class="team-avatar">
-                                            <img class="img-responsive" src='{% static "mainsite/assets/onepage2/img/member/anon.png" %}' alt="">
-                                        </div>
-                                        <div class="team-desc">
-                                            <div class="team-details">
-                                                <h4>Anon 2</h4>
-                                                <span>Technical Lead</span>
-                                            </div>
-                                            <ul class="team-socials">
-                                                <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div><!-- //end row -->
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <div class="team-members">
-                                        <div class="team-avatar">
-                                            <img class="img-responsive" src='{% static "mainsite/assets/onepage2/img/member/anon.png" %}' alt="">
-                                        </div>
-                                        <div class="team-desc">
-                                            <div class="team-details">
-                                                <h4>Anon 3</h4>
-                                                <span>Sales Lead</span>
-                                            </div>
-                                            <ul class="team-socials">
-                                                <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="team-members">
-                                        <div class="team-avatar">
-                                            <img class="img-responsive" src='{% static "mainsite/assets/onepage2/img/member/anon.png" %}' alt="">
-                                        </div>
-                                        <div class="team-desc">
-                                            <div class="team-details">
-                                                <h4>Anon 4</h4>
-                                                <span>Associate<br>Developer</span>
-                                            </div>
-                                            <ul class="team-socials">
-                                                <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
-                                                <li><a href="#!"><i class="fa fa-twitter"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-4">
-                                    <div class="team-members">
-                                        <div class="team-avatar">
-                                            <img class="img-responsive" src='{% static "mainsite/assets/onepage2/img/member/anon.png" %}' alt="">
-                                        </div>
-                                        <div class="team-desc">
-                                            <div class="team-details">
-                                                <h4>Anon 5</h4>
-                                                <span>Sales Associate</span>
+                                                <h4>Amiya Pani</h4>
+                                                <span>Co-Founder</span>
                                             </div>
                                             <ul class="team-socials">
                                                 <li><a href="#!"><i class="fa fa-facebook"></i></a></li>
@@ -764,17 +697,22 @@
                             <div class="form">
                                 <div class="form-wrap">
                                     <div class="form-wrap-group">
-                                        <input type="text" placeholder="Your Name" class="form-control">
-                                        <input type="text" placeholder="Subject" class="border-top-transparent form-control">
+                                        <input id="yname" type="text" placeholder="Your Name" class="form-control">
+                                        <input id="ysub" type="text" placeholder="Subject" class="border-top-transparent form-control">
                                     </div>                
                                     <div class="form-wrap-group border-left-transparent">
-                                        <input type="text" placeholder="Your Email" class="form-control">
-                                        <input type="text" placeholder="Contact Phone" class="border-top-transparent form-control">
+                                        <input id="yemail" type="text" placeholder="Your Email" class="form-control">
+                                        <input id="yph" type="text" placeholder="Contact Phone" class="border-top-transparent form-control">
                                     </div>                
                                 </div>
                             </div>
-                            <textarea rows="8" name="message" placeholder="Write comment here ..." class="border-top-transparent form-control"></textarea>
-                            <button type="submit" class="btn-danger btn-md btn-block">Send it</button>
+                            <textarea rows="8" name="message" id="ymsg" placeholder="Write comment here ..." class="border-top-transparent form-control"></textarea>
+                            <button type="submit" id="sbtn" class="btn-danger btn-md btn-block">Send it</button>
+
+
+
+
+
                         </div>
                     </div><!-- //end row -->
                 </div>
@@ -833,6 +771,26 @@
         Layout.init();
     });
 </script>
+
+     <script>
+                                $(document).ready(function(){
+                                $("#sbtn").click(function(){
+                                var name = $("#uname").val();
+<!--                                var email = $("#uemail").val();-->
+<!--                                var sub = $("#usub").val();-->
+<!--                                var ph = $("#uph").val();-->
+<!--                                var msg = $("#umsg").val();-->
+
+                                alert(name);
+<!--                                alert(email);-->
+<!--                                alert(sub);-->
+<!--                                alert(ph);-->
+<!--                                alert(msg);-->
+                                });
+                              });
+
+                            </script>
+
 <!-- END JAVASCRIPTS -->
 </body>
 <!-- END BODY -->
