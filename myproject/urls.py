@@ -25,6 +25,7 @@ urlpatterns = [
     path('', include('mainsite.urls')),
     path('myapp/', include('myapp.urls')),
     path('admin/', admin.site.urls),
+    path('aibot/', include('product.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 

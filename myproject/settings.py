@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'myapp',
     'mainsite',
     'construction',
-    'storages'
+    'storages',
+    'product'
 ]
 
 MIDDLEWARE = [

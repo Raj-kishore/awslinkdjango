@@ -34,7 +34,12 @@
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 
+<style>
+    .team-members{
+    border-radius:1%;
+    }
 
+</style>
 
 </head>
 <!-- END HEAD -->
@@ -322,7 +327,7 @@
                                 <div class="col-sm-6">
                                     <div class="team-members">
                                         <div class="team-avatar">
-                                            <img class="img-responsive" style="width:100%;" src='{% static "mainsite/assets/onepage2/img/member/amiya-pani.jpeg" %}' alt="">
+                                            <img class="img-responsive" style="width:100%;" src='{% static "mainsite/assets/onepage2/img/member/anon.png" %}' alt="">
                                         </div>
                                         <div class="team-desc">
                                             <div class="team-details">
@@ -631,7 +636,8 @@
                                     <li>Limited data support</li>
                                     <li>default CMS support</li>
                                 </ul>
-                                <button type="button" class="btn-brd-primary">Try now</button>
+                                <button type="button" id="tryprod" class="btn-brd-primary">Try now</button>
+
                             </div>
                         </div>
                         <div class="col-md-4">
@@ -790,6 +796,14 @@
                               });
 
                             </script>
+
+     <script>
+                                    $(document).ready(function(){
+                                    $("#tryprod").click(function(){
+                                   window.location = "../welcome"
+                                    });
+                                    });
+                                </script>
 
 <!-- END JAVASCRIPTS -->
 </body>

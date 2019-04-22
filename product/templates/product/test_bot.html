@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   {% load static %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
+  <meta name="author" content="Creative Tim">
+    <title>Train Your Bot</title>
+  <!-- Favicon -->
+  <link href='{% static "assets/img/brand/favicon.png" %}' rel="icon" type="image/png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+  <!-- Icons -->
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!--  <link href='{% static "assets/vendor/nucleo/css/nucleo.css" %}' rel="stylesheet">-->
+<!--  <link href='{% static "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" %}' rel="stylesheet">-->
+  <!-- Argon CSS -->
+  <link type="text/css" href='{% static "assets/css/argon.css?v=1.0.0" %}' rel="stylesheet">
+
+<style>
+
+    .boldify{
+        font-weight: bold;
+    }
+
+</style>
+
+
+</head>
+
+<body>
+  <!-- Sidenav -->
+  <nav class="navbar navbar-vertical fixed-left navbar-expand-md navbar-light bg-white" id="sidenav-main">
+
+  </nav>
+  <!-- Main content -->
+  <!-- Argon Scripts -->
+  <!-- Core -->
+  <script src='{% static "assets/vendor/jquery/dist/jquery.min.js" %}'></script>
+  <script src='{% static "assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js" %}'></script>
+  <!-- Optional JS -->
+  <script src='{% static "assets/vendor/clipboard/dist/clipboard.min.js" %}'></script>
+  <!-- Argon JS -->
+  <script src='{% static "assets/js/argon.js?v=1.0.0" %}'></script>
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+<script>
+// Add the following code if you want the name of the file appear on select
+$(".custom-file-input").on("change", function() {
+  var fileName = $(this).val().split("\\").pop();
+  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+});
+</script>
+
+ <script>
+    $(document).ready(function(){
+     $("#sidenav-main").load("./parts/leftbar.html", function(){
+     $("#tyb").css("font-weight","Bold");
+     });
+    });
+  </script>
+
+
+
+</body>
+
+</html>
