@@ -18,7 +18,7 @@
 <!--  <link href='{% static "assets/vendor/nucleo/css/nucleo.css" %}' rel="stylesheet">-->
 <!--  <link href='{% static "assets/vendor/@fortawesome/fontawesome-free/css/all.min.css" %}' rel="stylesheet">-->
   <!-- Argon CSS -->
-  <link type="text/css" href='{% static "assets/css/argon.css?v=1.0.0" %}' rel="stylesheet">
+  <link type="text/css" href='{% static "assets/css/argon.css" %}' rel="stylesheet">
 </head>
 
 <body class="bg-default">
@@ -53,14 +53,14 @@
           <!-- Navbar items -->
           <ul class="navbar-nav ml-auto">
    <li class="nav-item">
-              <a class="nav-link nav-link-icon" href="./register.html">
+              <a class="nav-link nav-link-icon" href="./register">
             <i class="fa fa-pencil"></i>
 
                 <span class="nav-link-inner--text">Register</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-icon" href="./login.html">
+              <a class="nav-link nav-link-icon" href="./login">
                 <i class="fa fa-sign-in "></i>
                 <span class="nav-link-inner--text">Login</span>
               </a>
@@ -185,12 +185,12 @@
   <!-- Optional JS -->
   <script src='{% static "assets/vendor/clipboard/dist/clipboard.min.js" %}'></script>
   <!-- Argon JS -->
-  <script src='{% static "assets/js/argon.js?v=1.0.0" %}'></script>
+  <script src='{% static "assets/js/argon.js" %}'></script>
 
  <script>
        $(document).ready(function(){
                     $("#godash").click(function(){
-                    window.location.href = "./index.html";
+                    window.location.href = "./";
                     });
                     });
                   </script>
