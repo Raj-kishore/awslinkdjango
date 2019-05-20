@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7307a7ba-a384-42d9-857c-81f423a15e09" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/devenv/static/devenv/dcassets/css/dc-parent.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devenv/static/devenv/dcassets/js/dc-parent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devenv/templates/devenv/dcparts/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devenv/templates/devenv/dcparts/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devenv/templates/devenv/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devenv/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/img/member/anonn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.django-aws.odt#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/construction/static/construction/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/construction/static/construction/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/construction/templates/construction/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/construction/templates/construction/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/css/layout.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myproject/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myproject/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,71 +27,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constructiondemo/templates/constructiondemo/course-detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6075">
-              <caret line="507" column="11" selection-start-line="507" selection-start-column="11" selection-end-line="507" selection-end-column="11" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constructiondemo/templates/constructiondemo/gallery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4980">
-              <caret line="434" column="11" selection-start-line="434" selection-start-column="11" selection-end-line="434" selection-end-column="11" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constructiondemo/templates/constructiondemo/course.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5610">
-              <caret line="476" column="11" selection-start-line="476" selection-start-column="11" selection-end-line="476" selection-end-column="11" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+            <state relative-caret-position="220">
+              <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constructiondemo/templates/constructiondemo/index.html">
+        <entry file="file://$PROJECT_DIR$/devenv/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="778" lean-forward="true" selection-start-line="778" selection-end-line="778" />
-              <folding>
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/construction/templates/construction/welcome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="173" column="105" selection-start-line="173" selection-start-column="105" selection-end-line="173" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mainsite/templates/mainsite/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+            <state relative-caret-position="283">
+              <caret line="435" column="35" lean-forward="true" selection-start-line="435" selection-start-column="35" selection-end-line="435" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -88,10 +67,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/construction/static/construction/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="1715" lean-forward="true" selection-start-line="1715" selection-end-line="1715" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myproject/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -150,13 +147,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#</find>
-      <find>Guy</find>
-      <find>main.</find>
-      <find>member</find>
-      <find>to try</find>
-      <find>abuse</find>
-      <find>jquery</find>
       <find>try now</find>
       <find>try</find>
       <find>register</find>
@@ -180,6 +170,13 @@
       <find>clients</find>
       <find>SBI</find>
       <find>unde</find>
+      <find>learn more</find>
+      <find>home</find>
+      <find>logo</find>
+      <find>amiya pani</find>
+      <find>team-mem</find>
+      <find>team-details</find>
+      <find>sachine</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -205,10 +202,8 @@
         <option value="$PROJECT_DIR$/construction/views.py" />
         <option value="$PROJECT_DIR$/myproject/wsgi.py" />
         <option value="$PROJECT_DIR$/construction/static/construction/js/jquery.countdown.min.js" />
-        <option value="$PROJECT_DIR$/construction/static/construction/js/main.js" />
         <option value="$PROJECT_DIR$/construction/static/construction/src.txt" />
         <option value="$PROJECT_DIR$/mainsite/static/mainsite/src.txt" />
-        <option value="$PROJECT_DIR$/construction/templates/construction/welcome.html" />
         <option value="$PROJECT_DIR$/product/templates/product/profile.html" />
         <option value="$PROJECT_DIR$/product/templates/product/login.html" />
         <option value="$PROJECT_DIR$/product/templates/product/register.html" />
@@ -225,7 +220,6 @@
         <option value="$PROJECT_DIR$/myproject/urls.py" />
         <option value="$PROJECT_DIR$/constructiondemo/urls.py" />
         <option value="$PROJECT_DIR$/constructiondemo/views.py" />
-        <option value="$PROJECT_DIR$/myproject/settings.py" />
         <option value="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/404.html" />
         <option value="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/blog-archive.html" />
         <option value="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/blog-single.html" />
@@ -234,7 +228,11 @@
         <option value="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/course-detail.html" />
         <option value="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/gallery.html" />
         <option value="$PROJECT_DIR$/constructiondemo/templates/constructiondemo/index.html" />
+        <option value="$PROJECT_DIR$/myproject/settings.py" />
+        <option value="$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/css/layout.css" />
         <option value="$PROJECT_DIR$/mainsite/templates/mainsite/index.html" />
+        <option value="$PROJECT_DIR$/construction/static/construction/js/main.js" />
+        <option value="$PROJECT_DIR$/construction/templates/construction/welcome.html" />
       </list>
     </option>
   </component>
@@ -260,25 +258,112 @@
             <path>
               <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
-              <item name="constructiondemo" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
-              <item name="constructiondemo" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
-              <item name="constructiondemo" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="constructiondemo" type="462c0819:PsiDirectoryNode" />
+              <item name="construction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="devenv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
               <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
               <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="onepage2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="onepage2" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="onepage2" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awslinkdjango" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="mainsite" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="onepage2" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="awslinkdjango" type="b2602c69:ProjectViewProjectNode" />
@@ -308,20 +393,20 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/constructiondemo/templates/constructiondemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/img/member" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\python\jangoD invisible\myproject\myapp\templates\myapp" />
+      <recent name="E:\python\jangoD invisible\myproject\myapp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/img/member" />
       <recent name="$PROJECT_DIR$/constructiondemo/templates/constructiondemo" />
       <recent name="$PROJECT_DIR$/constructiondemo/static/constructiondemo" />
       <recent name="$PROJECT_DIR$/constructiondemo" />
       <recent name="$PROJECT_DIR$/product/templates/product" />
-      <recent name="$PROJECT_DIR$/product/static/product" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\python\jangoD invisible\myproject\myapp\templates\myapp" />
-      <recent name="E:\python\jangoD invisible\myproject\myapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -495,16 +580,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myapp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myapp/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -533,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/construction/static/construction/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/construction/static/construction/js/jquery.countdown.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -552,13 +620,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product/static/assets/css/argon.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/construction/templates/construction/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/construction/views.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,13 +702,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product/templates/product/parts/dashboard.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/product/templates/product/parts/leftbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" selection-start-line="117" selection-end-line="117" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/product/templates/product/parts/demo.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -830,17 +884,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myproject/settings.py">
+    <entry file="file://$PROJECT_DIR$/constructiondemo/templates/constructiondemo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="990">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/templates/product/parts/leftbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myproject/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
@@ -880,25 +945,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constructiondemo/templates/constructiondemo/index.html">
+    <entry file="file://$PROJECT_DIR$/devenv/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="778" lean-forward="true" selection-start-line="778" selection-end-line="778" />
-          <folding>
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myproject/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainsite/static/mainsite/assets/onepage2/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="1715" lean-forward="true" selection-start-line="1715" selection-end-line="1715" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mainsite/templates/mainsite/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="128" column="42" selection-start-line="128" selection-start-column="42" selection-end-line="128" selection-end-column="42" />
+        <state relative-caret-position="283">
+          <caret line="435" column="35" lean-forward="true" selection-start-line="435" selection-start-column="35" selection-end-line="435" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction/static/construction/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/construction/templates/construction/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="173" column="105" selection-start-line="173" selection-start-column="105" selection-end-line="173" selection-end-column="105" />
         </state>
       </provider>
     </entry>
