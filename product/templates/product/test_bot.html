@@ -126,14 +126,12 @@
                 cursor: pointer;
 
             }
-            .chatOpener:hover{
-                opacity: 1.0;
-            }
+
 
             .main-body{
-background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #A770EF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
                 width: 100%;
                 height: 100%;
@@ -344,7 +342,7 @@ display:block;
 
 
   <div class="nexfort-chatbot">
-    <img class="chatOpener" src="{% static 'myapp/chat.png' %}">
+    <img class="chatOpener" src="{% static 'assets/iconchat.png' %}">
     <div class="chatbot-body">
         <div class="chat-wrapper">
             <div class="chatbot-board">
@@ -444,7 +442,6 @@ $(".custom-file-input").on("change", function() {
 
                 //indent : ctrl + alt + i
                 $(".chatOpener").animate({
-                    opacity: 0.5,
                     marginRight: "0%",
                     marginBottom:"0%",
                     fontSize: "3em",
@@ -456,7 +453,6 @@ $(".custom-file-input").on("change", function() {
                 $(".chatOpener").click(function(
                                       ){
                     $(this).animate({
-                        opacity: 0.5,
                         marginRight: "-50%",
                         marginBottom:"-50%",
                         fontSize: "3em",
@@ -480,7 +476,6 @@ $(".custom-file-input").on("change", function() {
                     }, 200 );
 
                     $(".chatOpener").animate({
-                        opacity: 0.5,
                         marginRight: "0%",
                         marginBottom:"0%",
                         fontSize: "3em",

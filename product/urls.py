@@ -13,5 +13,6 @@ path('rollout', views.roll_out),
 path('demo', views.test_bot),
 path('profile', views.profile),
 path('leftbar', views.leftbar),
-path('realtime', views.realtime)
+path('realtime', views.realtime),
+path('your-name', views.get_name)
 ]

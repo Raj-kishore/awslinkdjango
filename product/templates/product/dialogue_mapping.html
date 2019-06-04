@@ -2,7 +2,7 @@
 <html>
 
 <head>
-   {% load static %}
+     {% load static %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Start your development with a Dashboard for Bootstrap 4.">
@@ -19,13 +19,6 @@
   <!-- Argon CSS -->
   <link type="text/css" href='{% static "assets/css/argon.css" %}' rel="stylesheet">
 
-<style>
-
-    .boldify{
-        font-weight: bold;
-    }
-
-</style>
 
 
 </head>
@@ -36,6 +29,195 @@
 
   </nav>
   <!-- Main content -->
+  <div class="main-content">
+    <!-- Top navbar -->
+    <nav class="navbar navbar-top navbar-expand-md navbar-dark" id="navbar-main">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="h4 mb-0 text-white text-uppercase d-none d-lg-inline-block" href="../index.html">Dialog Mapping</a>
+        <!-- Form -->
+
+        <!-- User -->
+        <ul class="navbar-nav align-items-center d-none d-md-flex">
+          <li class="nav-item dropdown">
+            <a class="nav-link pr-0" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <div class="media align-items-center">
+                <span class="avatar avatar-sm rounded-circle">
+                  <img alt="Image placeholder" src="https://adventwealth.co.za/wp-content/uploads/2014/08/Profile-Pic-Demo.png">
+                </span>
+                <div class="media-body ml-2 d-none d-lg-block">
+                  <span class="mb-0 text-sm  font-weight-bold">Raj</span>
+                </div>
+              </div>
+            </a>
+            <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
+              <div class=" dropdown-header noti-title">
+                <h6 class="text-overflow m-0">Welcome!</h6>
+              </div>
+              <a href="../examples/profile.html" class="dropdown-item">
+                <i class="ni ni-single-02"></i>
+                <span>My profile</span>
+              </a>
+              <a href="../examples/profile.html" class="dropdown-item">
+                <i class="ni ni-settings-gear-65"></i>
+                <span>Settings</span>
+              </a>
+              <a href="../examples/profile.html" class="dropdown-item">
+                <i class="ni ni-calendar-grid-58"></i>
+                <span>Activity</span>
+              </a>
+              <a href="../examples/profile.html" class="dropdown-item">
+                <i class="ni ni-support-16"></i>
+                <span>Support</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#!" class="dropdown-item">
+                <i class="ni ni-user-run"></i>
+                <span>Logout</span>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Header -->
+    <div class="header bg-gradient-primary pb-8 pt-5 pt-md-8">
+      <div class="container-fluid">
+        <div class="header-body">
+          <!-- Card stats -->
+
+            <br>
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="container-fluid mt--7">
+      <!-- Table -->
+
+            <div class="row">
+             <div class="col-xl-12 col-lg-12">
+              <div class="card card-stats mb-4 mb-xl-0">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col">
+                      <h3 class="mb-0">INTENTS&nbsp &nbsp
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#e">
+  ADD
+</button></h3>
+
+                    </div>
+<div class="col-auto">
+
+                    </div>
+
+                  </div>
+                  <p class="mt-3 mb-0 text-muted text-sm">
+
+
+
+                                 <table class="table align-items-center table-flush">
+
+                <tbody>
+
+                   <tr>
+                    <td>
+                     GREET<br><br>
+                      <form>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <input type="email" class="form-control form-control-alternative" id="exampleFormControlInput1" placeholder="Reply to GREET">
+      </div>
+    </div>
+  </div>
+                      </form>
+                    </td>
+                  </tr>
+                <tr>
+                    <td>
+                     THANKS<br><br>
+                      <form>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <input type="email" class="form-control form-control-alternative" id="exampleFormControlInput4" placeholder="Reply to THANKS">
+      </div>
+    </div>
+  </div>
+                      </form>
+                    </td>
+                  </tr>
+                <tr>
+                    <td>
+                     NAME<br><br>
+                      <form>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <input type="email" class="form-control form-control-alternative" id="exampleFormControlInput3" placeholder="Reply to NAME">
+      </div>
+    </div>
+  </div>
+                      </form>
+                    </td>
+                  </tr>
+
+                <tr>
+                    <td>
+                     GOODBYE<br><br>
+                      <form>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="form-group">
+        <input type="email" class="form-control form-control-alternative" id="exampleFormControlInput2" placeholder="Reply to GOODBYE">
+      </div>
+    </div>
+  </div>
+                      </form>
+                    </td>
+                  </tr>
+
+
+
+                </tbody>
+              </table>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="row align-items-center justify-content-xl-between">
+          <div class="col-xl-6">
+            <div class="copyright text-center text-xl-left text-muted">
+              &copy; 2019 <a href="https://www.datacults.co" class="font-weight-bold ml-1" target="_blank">Datacults Co.</a>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <ul class="nav nav-footer justify-content-center justify-content-xl-end">
+
+              <li class="nav-item">
+                <a href="#!" class="nav-link" target="_blank">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md" class="nav-link" target="_blank">MIT License</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
   <!-- Argon Scripts -->
   <!-- Core -->
   <script src='{% static "assets/vendor/jquery/dist/jquery.min.js" %}'></script>
@@ -63,15 +245,15 @@ $(".custom-file-input").on("change", function() {
 });
 </script>
 
+
+
  <script>
     $(document).ready(function(){
-     $("#sidenav-main").load("./leftbar", function(){
+    $("#sidenav-main").load("./leftbar", function(){
      $("#dm").css("font-weight","Bold");
      });
     });
   </script>
-
-
 
 </body>
 

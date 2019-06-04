@@ -1,0 +1,40 @@
+[Session starts]
+
+This is "Joyel" here to help you proceed.
+
+me : [greet] Hi Joyel
+
+J : [reply_greet] Hi, You name?
+
+Me : [name] Raj
+------------------[Pause until user gives a name]
+J :[reply_product_service] 
+   Oh, Hi Raj.. Following is the products & services we provide. select one
+	product			service
+	chatbot			ai driven data management software
+				mobile and destop application
+
+
+Me : [about] about your company
+J : [reply_about] show about
+
+Me : [thankyou] thanks
+		J : [reply_thankyou] Welcome
+
+Me : [show] show products
+J : [reply_procut_service]
+
+Me : [Goodbye] bye
+J : [reply_goodbye] See you soon..bye
+ 
+[End the session]
+[Close the window] 
+
+----------------------------------------------
+Change 1 :
+Upgraded distribution url version
+distributionUrl=https\://services.gradle.org/distributions/gradle-4.6-all.zip in gradle-wrapper.properties
+
+And upgraded classpath 'com.android.tools.build:gradle:3.2.1' in build.gradle (project level).
+
+Change 2 :
